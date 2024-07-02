@@ -1,0 +1,234 @@
+ *{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    border: border-box;
+}
+header{
+        width: 100%;
+}
+.navbar{
+     height: 60px;
+    width: 100%;
+    background-color: rgb(5, 5, 5);
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+    
+}
+.nav-logo{
+    height: 50px;
+    width: wrap-content;
+    align-items: center;
+}
+.logo{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    /* display: flex;
+    justify-content: space-evenly; */
+    
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+.logo a:hover{
+     color: aqua;
+     cursor: pointer;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+   border: 1px solid white;
+}
+header  h1{
+   font-family:"Bradley Hand ITC";
+   font-size: 2rem;
+   
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(74, 202, 202);
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border: 1px solid yellow;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+    color: black;
+   cursor: pointer;
+    background-color: rgb(16, 166, 211);
+}
+.sign-in{
+    height: 50px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.returns-order{
+       cursor: pointer;
+         
+}
+
+.returns-order span{
+    font-size: 0.7rem;
+}
+.returns-order a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 700;
+   
+}
+.nav-wishlist{
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.nav-cart a i{
+        font-weight: 700;
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+}
+
+
+.panel{
+    height: 30px;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.panel a{
+    text-decoration: none;
+    color: white;
+}
+.panel a:hover{
+    border: 1px solid aqua;
+}
+
+.hero-section{
+    height: 450px;
+    width: 100%;
+    background-image: url(images/hero-image1.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text{
+    position: relative;
+    top: 25px;
+}
+.hero-text p{
+    font-family: "Vivaldi";
+    font-size: 60px;
+       
+}
+
+.category-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.category{
+    height: 300px;
+    border: 2px solid transparent;
+    width: 23%;
+    font-family: "Viner Hand ITC";
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.category h2 {
+    margin-left: 10px;
+}
+.category a{
+    margin-left: 10px;
+}
+
+.box-img{
+    height: 230px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.footer1 {
+    font-size:10px;
+    background-color:#333;
+    color: white;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+} 
+.footer1 a{
+    text-decoration: none;
+    color: white;
+}
+.footer1:hover{
+    background-color:#37475a ;
+}
+.footer-2{
+    height: 20px;
+    font-family: "Vivaldi";
+    
+    font-size: 10px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-2 span{
+    font-family: "Sylfaen";
+}
+
+
+
+
